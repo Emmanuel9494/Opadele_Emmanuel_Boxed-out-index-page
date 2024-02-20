@@ -14,6 +14,37 @@
 #user-profile{
     display:none;
 }
+/* Hero Section styles */
+
+#hero-img{
+    height: 212px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-separator{
+    font-size: 10px;
+    color:aliceblue;
+    height: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-section .line-separator{
+    grid-column: 1/-1;
+    grid-row:1/1;
+    justify-self:center;
+}
+
+.learn-more{
+    width: 145px;
+    height: 63px;
+}
+
+
+
 
 
 @media  screen and (min-width: 768px) {
@@ -50,6 +81,8 @@
     }
 }
 
+/* Hero Section styles */
+
 
 
 
@@ -69,7 +102,7 @@
         flex-direction: row-reverse;
        
     }
-
+/* Hero Section styles */
 
 
 }
