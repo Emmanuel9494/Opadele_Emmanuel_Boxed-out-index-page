@@ -32,24 +32,42 @@ img, embed, object, video, picture {
  .light-box{
    background-color: #d1d1d1;
    color: #535353;
+   margin-bottom:10px;
+   /* text-align: center; */
+   align-items: center; /* Center vertically */
+   justify-content: center;
+   display: flex;
  }
 
  .dark-box{
    background-color: #535353;
    color: #e5e5e5;
+   margin-bottom:10px;
+   text-align: center;
+   align-items: center; /* Center vertically */
+   justify-content: center; /* Center horizontally */
+   display: flex;
  }
 
  .lighter-box{
    background-color: #e5e5e5;
    color: #535353;
+   margin-bottom:10px;
+   /* text-align: center; */
+   align-items: center; /* Center vertically */
+   justify-content: center;
+   display: flex;
  }
 
  .box {
     background-color: #d1d1d1;
     color: rgb(27, 27, 27);
-    padding: 20px;
-    text-align: center;
+    /* padding: 20px; */
+    /* align-items: center; */
     margin-bottom:10px;
+    /* display: flex; */
+    align-items: center; 
+   justify-content: center;
   }
  
  /* Scaffold ends */
