@@ -47,17 +47,11 @@ img, embed, object, video, picture {
  .box {
     background-color: #d1d1d1;
     color: rgb(27, 27, 27);
-    border-radius: 5px;
     padding: 20px;
     text-align: center;
     margin-bottom:10px;
   }
-  .box1 {
-   background-color: powderblue;
-   color: rgb(27, 27, 27);
-   border-radius: 5px;
-   align-items: center;
- }
+ 
  /* Scaffold ends */
 
 
