@@ -69,6 +69,17 @@ img, embed, object, video, picture {
     align-items: center; 
    justify-content: center;
   }
+
+  .box1 {
+   background-color: #a2a2a2;
+   color: rgb(27, 27, 27);
+   /* padding: 20px; */
+   /* align-items: center; */
+   margin-top:10px;
+   /* display: flex; */
+   align-items: center; 
+  justify-content: center;
+ }
  
  /* Scaffold ends */
 
