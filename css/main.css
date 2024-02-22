@@ -15,7 +15,9 @@
     display:none;
 }
 /* Hero Section styles */
-
+#hero-section{
+    display: block;
+}
 #hero-img{
     height: 212px;
     display: flex;
@@ -24,18 +26,17 @@
 }
 .line-separator{
     font-size: 10px;
-    color:aliceblue;
+    color:rgb(0, 0, 0);
     height: 10px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#hero-section .line-separator{
-    grid-column: 1/-1;
-    grid-row:1/1;
-    justify-self:center;
+
+#hero-message{
+    margin-top: 10px;
 }
 
 .learn-more{
@@ -43,9 +44,20 @@
     height: 63px;
 }
 
+.msg-box {
+    height: 231px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.greet-1, .greet-2{
+    height: 75px;
+    padding: 0 10px;
+}
 
-
-
+.promo-img {
+    display:none;
+}
 
 @media  screen and (min-width: 768px) {
     header{
@@ -79,16 +91,52 @@
         
         
     }
+
+    /* Hero Section styles */
+    #hero-section{
+        display: grid;
+    }
+#hero-section {
+    height: 460px;
+}
+.msg-box {
+    height: 293px;
+    
+}
+   
+
+   #hero-img{
+        /* grid-column: 1/-1;
+        grid-row:1/1;
+        justify-self:center; */
+        display:none;
+    }
+    #hero-message{
+        grid-column: 2/3;
+        grid-row:1/1;
+        margin: 0;
+     }
+
+.promo-img {
+    display: flex;
 }
 
-/* Hero Section styles */
+.promo-main {
+    height: 438px;
+    border-top-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+
+}
+}
 
 
 
 
 
 @media  screen and (min-width: 1200px) {
-
+#brand-name {
+    height: 60px;
+}
     #main-nav{
         height: 60px;
     }
@@ -98,11 +146,31 @@
         height: 60px;
         padding: 20px 10px 10px 10px;
         align-items: center; /* Center vertically */
-        justify-content: space-between;
+        justify-content: space-between; /* Center Horizontally */
         flex-direction: row-reverse;
        
     }
 /* Hero Section styles */
 
+#hero-section{
+    display: grid;
+}
+#hero-section{
+    height: 700px;
+}
+ #hero-message{
+    grid-column: 2/3;
+    grid-row:1/1;
+    margin: 0;
+ }
 
+.msg-box {
+    height: 500px;
+}
+
+.promo-main {
+    height: 660px;
+   
+
+}
 }
