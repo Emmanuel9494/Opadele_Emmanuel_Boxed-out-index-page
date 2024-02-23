@@ -1,3 +1,20 @@
+/* 
+    CSS Guide Index Page
+
+    1.  Header 
+    2.  Hero Section
+    3.  Product Section
+    4.  
+    5.  
+    6.  
+    7.  
+    8.  
+    9.  
+    10. 
+    11. 
+ */
+
+/* 1.) Header Mobile */
 #burger-dash {
     height: 25px;
 }
@@ -14,7 +31,7 @@
 #user-profile{
     display:none;
 }
-/* Hero Section styles */
+/* 2.) Hero Section Mobile */
 #hero-section{
     display: block;
 }
@@ -59,7 +76,36 @@
     display:none;
 }
 
+/* 3.) Product Section Mobile */
+
+.product-vid {
+    height: 230px;
+}
+
+#product-info {
+    height: 135px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.prdct-phrase {
+    height: 90px;
+}
+
+.prdct-more {
+     height: 25px;
+}
+
+#circle-dot {
+    display: none;
+}
+#product-pic{
+    display: none;
+}
+
+
 @media  screen and (min-width: 768px) {
+    /* 1.) Header Tablet */
     header{
         height: 100px;
     }
@@ -92,7 +138,7 @@
         
     }
 
-    /* Hero Section styles */
+    /*2.)  Hero Section Tablet */
     #hero-section{
         display: grid;
     }
@@ -127,6 +173,76 @@
     border-bottom-right-radius: 20px;
 
 }
+
+/* 3.) Product Section Tablet */
+.spc-hide {
+    display: none;
+}
+#product-section {
+    height: 600px;
+}
+.product-vid {
+    display:none;
+}
+
+#product-pic{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#product-info {
+    height: 135px;
+    /* display: flex;
+    justify-content: space-around;
+    flex-direction: column; */
+}
+    
+.prdct-1, .prdct-2, .prdct-4,.prdct-5 {
+    width: 107px;
+    height:250px ;
+    padding: 0 30px;
+}
+.prdct-3 {
+    width: 233px;
+    height:360px ;
+    padding: 0 10px;
+}
+#circle-dot {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10px;
+    margin-left:30px ;
+}
+.image-selector {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 50%;
+    /* bottom: 10px; /* Adjust vertical position */
+    /* left: 50%; Align circle horizontally */ 
+    transform: translateX(-50%);
+}
+
+.image-selector::before,
+.image-selector::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: all 0.3s ease; /* Add transition for smooth animation */
+}
+
+/* Smaller circle */
+.image-selector::before {
+    width: 20px; /* Adjust size of the smaller circle */
+    height: 20px;
+    background-color: white; /* Change color of the smaller circle */
+}
+
+
 }
 
 
@@ -134,6 +250,7 @@
 
 
 @media  screen and (min-width: 1200px) {
+    /* 1.) Header Desktop */
 #brand-name {
     height: 60px;
 }
@@ -150,7 +267,7 @@
         flex-direction: row-reverse;
        
     }
-/* Hero Section styles */
+/* 2.) Hero Section Desktop*/
 
 #hero-section{
     display: grid;
@@ -173,4 +290,23 @@
    
 
 }
+/* 3.) Product Section Desktop */
+
+#product-section {
+    height: 700px;
+}
+
+.prdct-1, .prdct-2, .prdct-4,.prdct-5 {
+    width: 170px;
+    height:320px ;
+    padding: 0 30px;
+}
+.prdct-3 {
+    width: 370px;
+    height:500px ;
+    padding: 0 10px;
+}
+
+
+
 }
