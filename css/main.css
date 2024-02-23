@@ -4,7 +4,7 @@
     1.  Header 
     2.  Hero Section
     3.  Product Section
-    4.  
+    4.  Events Section
     5.  
     6.  
     7.  
@@ -103,6 +103,28 @@
     display: none;
 }
 
+/* 4.) Events Section Mobile */
+.event-head-more{
+    display:none;
+}
+.event-head {
+    height: 35px;
+}
+
+
+.event-para{
+    display: flex;
+    height: 120px;
+    margin-top:10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.event-container{
+    margin-top: 10px;
+    height: 200px;
+}
 
 @media  screen and (min-width: 768px) {
     /* 1.) Header Tablet */
@@ -243,6 +265,31 @@
 }
 
 
+/* 4.) Events Section Tablet */
+.event-head-more{
+    display:block;
+}
+
+.event-head{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    height: 150px;
+}
+
+.event-container{
+    grid-row: 1/1;
+    height: 620px;
+}
+.event-vid {
+    width: 500px;
+    height: 560px;
+}
+
+.event-para {
+    display:none;
+}
+
 }
 
 
@@ -306,6 +353,13 @@
     height:500px ;
     padding: 0 10px;
 }
+
+/* 4.) Events Section Desktop */
+.event-vid{
+    width:700px
+}
+
+
 
 
 
