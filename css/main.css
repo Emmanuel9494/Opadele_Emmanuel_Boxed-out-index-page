@@ -6,8 +6,8 @@
     3.  Product Section
     4.  Events Section
     5.  Promotional Video Section
-    6.  
-    7.  
+    6.  Fan Base Testimonial Section
+    7.  Puzzle Game Section Mobile
     8.  
     9.  
     10. 
@@ -149,6 +149,33 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+/* 6.) Fan Base Testimonial Section Mobile */
+#testimonials{
+    margin-top:10px;
+}
+.fan-base{
+    display: grid;
+    border-bottom: 10px solid black;
+}
+.fan-img {
+    height: 270px;
+    margin-bottom: 10px;
+    
+}
+.fan-name{
+    height: 50px;
+}
+.fan-testimony{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* 7.) Puzzle Game Section Mobile */
+
+
 
 
 
@@ -319,8 +346,6 @@
     display:none;
 }
 
-}
-
 /* 5.) Promotional Video Section Tablet */
 .promo-vid{
     height: 500px;
@@ -334,6 +359,29 @@
     width: 250px;
     height:70px;
 }
+
+/* 6.) Fan Base Testimonial Section Tablet */
+
+
+/* .fan-img {
+    height: 270px;
+   
+    
+}
+.fan-name{
+    height: 50px;
+}
+.fan-testimony{
+    height: 250px;
+  
+} */
+
+
+/* 7.) Puzzle Game Section Tablet */
+
+}
+
+
 
 
 
@@ -414,6 +462,21 @@
     height:70px;
 }
 
+/* 6.) Fan Base Testimonial Section Desktop */
+.fan-img {
+    height: 330px;
+   
+    
+}
+.fan-name{
+    height: 80px;
+}
+.fan-testimony{
+    height: 420px;
+  
+}
+
+/* 7.) Puzzle Game Section Desktop */
 
 
 }
