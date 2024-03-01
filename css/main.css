@@ -174,10 +174,41 @@
 }
 
 /* 7.) Puzzle Game Section Mobile */
+#game-bar{
+    display: none;
+}
+#game-controls{
+    display: none;
+}
+.game-box {
+    height:370px ;
+}
 
+.expand-box {
+    margin-top: 10px;
+    height:40px ;
+}
+.lets-play-box{
+    margin-top: 10px;
+    height: 100px;
+    grid-row: 2/4;
+}
 
+.grid-con .menu-box{
+    grid-row: 3/3;
+    order: 2;
+}
 
+.game-para-box{
+    margin-top: 10px;
+    height: 100px;
+}
 
+.null-control{
+    display: none;
+}
+
+/* 8.) Banner Animation Section Mobile */
 
 
 
@@ -378,6 +409,62 @@
 
 
 /* 7.) Puzzle Game Section Tablet */
+#game-bar{
+    display: grid;
+}
+#game-controls{
+    display:flex;
+}
+.game-box {
+    height:400px ;
+}
+
+.expand-box {
+    margin-top: 10px;
+    height:50px ;
+    grid-row: 3;
+}
+.lets-play-box{
+    margin-top: 10px;
+    height: 160px;
+    grid-row: 4/6;
+}
+
+.grid-con .control-box{
+    grid-row: 4;
+    height:75px ;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+   
+}
+
+.game-para-box{
+    margin-top: 10px;
+    height: 100px;
+}
+.menu-box{
+    display: none;
+}
+
+.line-control{
+    width: 225px;
+    height: 50px;
+}
+
+ .more-ctrl{
+    grid-row: 5;
+    height:75px ;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* 8.) Banner Animation Section Tablet */
 
 }
 
@@ -477,6 +564,10 @@
 }
 
 /* 7.) Puzzle Game Section Desktop */
+.game-box {
+    height:600px ;
+}
 
+/* 8.) Banner Animation Section Desktop */
 
 }
