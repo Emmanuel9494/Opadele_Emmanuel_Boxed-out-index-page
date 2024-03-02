@@ -8,10 +8,9 @@
     5.  Promotional Video Section
     6.  Fan Base Testimonial Section
     7.  Puzzle Game Section Mobile
-    8.  
-    9.  
-    10. 
-    11. 
+    8.  Banner Animation Section
+    9.  Footer Section
+   
  */
 
 /* 1.) Header Mobile */
@@ -209,6 +208,22 @@
 }
 
 /* 8.) Banner Animation Section Mobile */
+#main-animation{
+    margin-top: 10px;
+}
+
+.animation-vid {
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.animation-vid p{
+    margin-top: 100px;
+}
+
+/* 9.) Footer Section Mobile */
 
 
 
@@ -465,6 +480,16 @@
 
 
 /* 8.) Banner Animation Section Tablet */
+.animation-vid{
+    height: 500px;
+}
+
+.animation-vid p{
+    margin-top: 200px;
+}
+
+
+/* 9.) Footer Section Tablet */
 
 }
 
@@ -569,5 +594,14 @@
 }
 
 /* 8.) Banner Animation Section Desktop */
+.animation-vid{
+    height: 700px;
+}
+
+.animation-vid p{
+    margin-top: 350px;
+}
+
+/* 9.) Footer Section Desktop */
 
 }
